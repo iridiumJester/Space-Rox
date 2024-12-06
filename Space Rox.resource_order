@@ -1,0 +1,9 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"objAsteroid","order":1,"path":"objects/objAsteroid/objAsteroid.yy",},
+    {"name":"sprAsteroidLg","order":3,"path":"sprites/sprAsteroidLg/sprAsteroidLg.yy",},
+    {"name":"sprAsteroidMd","order":2,"path":"sprites/sprAsteroidMd/sprAsteroidMd.yy",},
+    {"name":"sprAsteroidSm","order":1,"path":"sprites/sprAsteroidSm/sprAsteroidSm.yy",},
+  ],
+}
