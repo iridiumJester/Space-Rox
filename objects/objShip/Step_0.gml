@@ -15,8 +15,18 @@ if (keyboard_check(vk_right))
 // movement
 if (keyboard_check(vk_up)) 
 {
-	motion_add(image_angle, 0.05);
+	if (speed <= 3)
+	{
+		motion_add(image_angle, 0.05);
+	}
 }
+
+// slow momentum when not pressing up. ITS SO HARD TO CONTROL
+if (speed > 0) && not (keyboard_check(vk_up)) 
+{
+	speed -= 0.0075
+}
+
 
 // bullet
 if (keyboard_check_pressed(vk_space)) 

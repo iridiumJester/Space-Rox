@@ -14,7 +14,7 @@ with(other)
 			aster.sprite_index = sprAsteroidMd;
 		}
 	}
-	else if(sprite_index == sprAsteroidMed) 
+	else if(sprite_index == sprAsteroidMd) 
 	{
 		repeat(2)
 		{
