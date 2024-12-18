@@ -4,6 +4,7 @@
     {"name":"objAsteroid","order":1,"path":"objects/objAsteroid/objAsteroid.yy",},
     {"name":"objBullet","order":2,"path":"objects/objBullet/objBullet.yy",},
     {"name":"objDebris","order":3,"path":"objects/objDebris/objDebris.yy",},
+    {"name":"objGame","order":4,"path":"objects/objGame/objGame.yy",},
     {"name":"sprAsteroidLg","order":3,"path":"sprites/sprAsteroidLg/sprAsteroidLg.yy",},
     {"name":"sprAsteroidMd","order":2,"path":"sprites/sprAsteroidMd/sprAsteroidMd.yy",},
     {"name":"sprAsteroidSm","order":1,"path":"sprites/sprAsteroidSm/sprAsteroidSm.yy",},

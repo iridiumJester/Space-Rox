@@ -33,9 +33,11 @@
   },
   "name":"Space Rox",
   "resources":[
+    {"id":{"name":"fntText","path":"fonts/fntText/fntText.yy",},},
     {"id":{"name":"objAsteroid","path":"objects/objAsteroid/objAsteroid.yy",},},
     {"id":{"name":"objBullet","path":"objects/objBullet/objBullet.yy",},},
     {"id":{"name":"objDebris","path":"objects/objDebris/objDebris.yy",},},
+    {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},},
     {"id":{"name":"objShip","path":"objects/objShip/objShip.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"id":{"name":"sprAsteroidLg","path":"sprites/sprAsteroidLg/sprAsteroidLg.yy",},},
