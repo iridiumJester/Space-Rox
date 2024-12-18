@@ -40,6 +40,9 @@
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},},
     {"id":{"name":"objShip","path":"objects/objShip/objShip.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+    {"id":{"name":"rmGameover","path":"rooms/rmGameover/rmGameover.yy",},},
+    {"id":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
+    {"id":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},},
     {"id":{"name":"sprAsteroidLg","path":"sprites/sprAsteroidLg/sprAsteroidLg.yy",},},
     {"id":{"name":"sprAsteroidMd","path":"sprites/sprAsteroidMd/sprAsteroidMd.yy",},},
     {"id":{"name":"sprAsteroidSm","path":"sprites/sprAsteroidSm/sprAsteroidSm.yy",},},
@@ -50,7 +53,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
     {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+    {"roomId":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},},
+    {"roomId":{"name":"rmGameover","path":"rooms/rmGameover/rmGameover.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
