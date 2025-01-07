@@ -1,4 +1,4 @@
-/// @desc
+/// @desc All text
 
 gameInstructions = 
 @"Score 1,000 points to win!
