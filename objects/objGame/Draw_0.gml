@@ -1,7 +1,7 @@
 /// @desc All text
 
 gameInstructions = 
-@"Score 1,000 points to win!
+@"Score 1,000 points to win.
 
 UP/DOWN: FORWARD/BACKWARD
 LEFT/RIGHT: ROTATE
@@ -54,8 +54,8 @@ switch(room)
 		var c = c_fuchsia;
 		draw_set_halign(fa_center);
 		draw_text_transformed_color(
-			8+room_width/2, 100, "SPACE ROX!",
-			3.5, 3.5, 0, c_red, c, c, c_red, 1
+			8+room_width/2, 100, "HEARTBLAST!",
+			3, 3, 0, c_red, c, c, c_red, 1
 		);
 		draw_text_color(
 			room_width/2, 200, gameInstructions, 

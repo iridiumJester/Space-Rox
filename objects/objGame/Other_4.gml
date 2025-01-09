@@ -1,4 +1,9 @@
-/// @desc Spawn init asteroids
+/// @desc Init asteroids + Music
+
+if (room == rmStart) 
+{
+audio_play_sound(mscStartLoop, 2, true);
+}
 
 if (room == rmGame) 
 {

@@ -37,12 +37,13 @@ if (speed > 0) && not (keyboard_check(vk_up))
 }
 
 
-// bullet
+// bullet. for fun remove "_pressed"
 if (keyboard_check_pressed(vk_space)) 
 {
 	var inst = instance_create_layer(x,y,"Instances", objBullet);
 	inst.direction = image_angle;
 	inst.image_angle = image_angle;
+	audio_play_sound(sfxZap, 1, false,0.75);
 }
 
 move_wrap(true,true,sprite_width/2);

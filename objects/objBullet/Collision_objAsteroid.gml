@@ -1,6 +1,6 @@
 /// @desc
 
-score += 100;
+score += 25;
 
 instance_destroy();
 
@@ -23,6 +23,10 @@ with(other)
 			var aster = instance_create_layer(x,y,"Instances",objAsteroid);
 			aster.sprite_index = sprAsteroidSm;
 		}
+	}
+	else if(sprite_index == sprAsteroidSm) 
+	{
+		audio_play_sound(sfxDie, 1, false,0.75);
 	}
 	repeat(10)
 	{

@@ -19,4 +19,4 @@ else
 
 instance_create_layer(xx, yy, "Instances", objAsteroid);
 
-alarm[0] = 4*room_speed;
+alarm[0] = 2*60;
