@@ -1,6 +1,6 @@
 /// @desc
 
-score += 25;
+score += 20;
 
 instance_destroy();
 

@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings":[
-    {"name":"sfx","order":11,"path":"folders/Sounds/sfx.yy",},
     {"name":"music","order":10,"path":"folders/Sounds/music.yy",},
+    {"name":"sfx","order":11,"path":"folders/Sounds/sfx.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"objAsteroid","order":1,"path":"objects/objAsteroid/objAsteroid.yy",},

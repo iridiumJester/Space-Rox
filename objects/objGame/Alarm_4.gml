@@ -1,3 +1,1 @@
-/// @desc Restart
-
-game_restart();
+/// @desc 

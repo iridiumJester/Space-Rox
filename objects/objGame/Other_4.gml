@@ -1,12 +1,24 @@
 /// @desc Init asteroids + Music
 
+text_visible = true;
+
 if (room == rmStart) 
 {
-audio_play_sound(mscStartLoop, 2, true);
+	audio_play_sound(mscStartLoop, 2, true);
 }
 
 if (room == rmGame) 
 {
+	if (lives == 3) 
+	{
+	text_visible = false;
+	alarm_set(5, 0.5*60);
+	}
+	else
+	{
+	alarm_set(2, 0.25*60);
+	}
+	
 	repeat(6)
 	{
 		var xx = choose(

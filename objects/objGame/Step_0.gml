@@ -5,17 +5,19 @@ if (keyboard_check_pressed(vk_enter))
 	switch(room) 
 	{
 		case rmStart:
+			text_visible = false;
 			audio_stop_sound(mscStartLoop);
 			audio_play_sound(sfxBlip, 2, false, 0.75);
 			audio_play_sound(mscStartLoopEnd, 2, false);
 			alarm_set(2, 2*60);
-			alarm_set(3, 1.5*60);
+			alarm_set(3, 1*60);
 			break;
 		
 		case rmWin:
 		case rmGameover:
+			text_visible = false;
 			audio_play_sound(sfxBlip, 2, false, 0.75);
-			alarm_set(4, 0.25*60);
+			alarm_set(3, 0.25*60);
 			break;
 	}
 }
