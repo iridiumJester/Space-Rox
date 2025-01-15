@@ -60,6 +60,7 @@
     {"id":{"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},},
     {"id":{"name":"sprDebris","path":"sprites/sprDebris/sprDebris.yy",},},
     {"id":{"name":"sprShip","path":"sprites/sprShip/sprShip.yy",},},
+    {"id":{"name":"sprShipShoot","path":"sprites/sprShipShoot/sprShipShoot.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

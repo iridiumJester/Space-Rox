@@ -26,7 +26,7 @@ if (keyboard_check(vk_down))
 {
 	if (speed <= 3)
 	{
-		motion_add(-image_angle, 0.05);
+		motion_add(image_angle, -0.05);
 	}
 }
 
@@ -44,6 +44,8 @@ if (keyboard_check_pressed(vk_space))
 	inst.direction = image_angle;
 	inst.image_angle = image_angle;
 	audio_play_sound(sfxZap, 1, false,0.75);
+	sprite_index = sprShipShoot;
+	alarm[0] = 0.1*60;
 }
 
 move_wrap(true,true,sprite_width/2);

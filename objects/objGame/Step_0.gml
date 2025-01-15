@@ -17,7 +17,7 @@ if (keyboard_check_pressed(vk_enter))
 		case rmGameover:
 			text_visible = false;
 			audio_play_sound(sfxBlip, 2, false, 0.75);
-			alarm_set(3, 0.25*60);
+			alarm_set(3, 0.5*60);
 			break;
 	}
 }

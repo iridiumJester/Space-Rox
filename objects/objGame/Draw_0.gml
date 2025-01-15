@@ -49,7 +49,7 @@ switch(room)
 			}
 
 			draw_text(10,30,"LIVES: " + string(lives));
-			}
+		}
 		
 		break;
 		

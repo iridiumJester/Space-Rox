@@ -9,7 +9,7 @@ if (room == rmStart)
 
 if (room == rmGame) 
 {
-	if (lives == 3) 
+	if (lives == 3 and health == 100) 
 	{
 	text_visible = false;
 	alarm_set(5, 0.5*60);
