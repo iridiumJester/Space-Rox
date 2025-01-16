@@ -23,6 +23,7 @@
     {"name":"sprAsteroidSm","order":1,"path":"sprites/sprAsteroidSm/sprAsteroidSm.yy",},
     {"name":"sprBullet","order":4,"path":"sprites/sprBullet/sprBullet.yy",},
     {"name":"sprDebris","order":5,"path":"sprites/sprDebris/sprDebris.yy",},
+    {"name":"sprPowerups","order":8,"path":"sprites/sprPowerups/sprPowerups.yy",},
     {"name":"sprShipShoot","order":6,"path":"sprites/sprShipShoot/sprShipShoot.yy",},
   ],
 }
