@@ -34,7 +34,11 @@ switch(room)
 			{	
 				draw_set_color(c_aqua);
 			}
-			draw_text(10,10,"SCORE: " + string(score));
+			
+			var guix = camera_get_view_x(view_camera[0]);
+			var guiy = camera_get_view_y(view_camera[0]);
+			
+			draw_text(guix + 10,guiy + 10,"SCORE: " + string(score));
 			if (lives = 3) 
 			{	
 				draw_set_color(c_lime);
@@ -47,8 +51,8 @@ switch(room)
 			{	
 				draw_set_color(c_red);
 			}
-
-			draw_text(10,30,"LIVES: " + string(lives));
+			
+			draw_text(guix + 10,guiy + 30,"LIVES: " + string(lives));
 		}
 		
 		break;
