@@ -50,6 +50,7 @@
     {"id":{"name":"rmGameover","path":"rooms/rmGameover/rmGameover.yy",},},
     {"id":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
     {"id":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},},
+    {"id":{"name":"scrBullet","path":"scripts/scrBullet/scrBullet.yy",},},
     {"id":{"name":"mscStartLoop","path":"sounds/mscStartLoop/mscStartLoop.yy",},},
     {"id":{"name":"mscStartLoopEnd","path":"sounds/mscStartLoopEnd/mscStartLoopEnd.yy",},},
     {"id":{"name":"mscTheme","path":"sounds/mscTheme/mscTheme.yy",},},
