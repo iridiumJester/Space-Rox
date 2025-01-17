@@ -15,6 +15,7 @@ with(other)
 			var aster = instance_create_layer(x,y,"Instances",objAsteroid);
 			aster.sprite_index = sprAsteroidMd;
 		}
+		audio_play_sound(sfxHurt, 1, false,0.75);
 	}
 	else if(sprite_index == sprAsteroidMd) 
 	{
@@ -23,6 +24,7 @@ with(other)
 			var aster = instance_create_layer(x,y,"Instances",objAsteroid);
 			aster.sprite_index = sprAsteroidSm;
 		}
+		audio_play_sound(sfxHurt, 1, false,0.75);
 	}
 	else if(sprite_index == sprAsteroidSm) 
 	{

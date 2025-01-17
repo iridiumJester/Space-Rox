@@ -7,3 +7,9 @@ text_visible = true;
 draw_set_font(fntText);
 
 randomize();
+
+enum powerups {
+	triple,
+	laser,
+	extra_life
+}

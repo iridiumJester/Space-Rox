@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"objBullet",
+  "%Name":"objPowerup",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objAsteroid","path":"objects/objAsteroid/objAsteroid.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objBullet",
+  "name":"objPowerup",
   "overriddenProperties":[],
   "parent":{
     "name":"Player",
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBullet",
-    "path":"sprites/sprBullet/sprBullet.yy",
+    "name":"sprPowerupsPlaceholders",
+    "path":"sprites/sprPowerupsPlaceholders/sprPowerupsPlaceholders.yy",
   },
   "spriteMaskId":null,
   "visible":true,

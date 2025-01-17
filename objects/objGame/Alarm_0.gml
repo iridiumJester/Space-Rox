@@ -1,4 +1,4 @@
-/// @desc Spawn asteroid every second
+/// @desc Spawn asteroid every two seconds
 if (room != rmGame) 
 {
 	exit;

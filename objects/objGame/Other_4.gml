@@ -4,7 +4,7 @@ text_visible = true;
 
 if (room == rmStart) 
 {
-	audio_play_sound(mscStartLoop, 2, true);
+	audio_play_sound(mscStartLoop, 2, true, 0.75);
 }
 
 if (room == rmGame) 
