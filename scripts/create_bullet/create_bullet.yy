@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrBullet",
+  "%Name":"create_bullet",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrBullet",
+  "name":"create_bullet",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

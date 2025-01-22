@@ -37,11 +37,10 @@ if (speed > 0) && not (keyboard_check(vk_up))
 }
 
 
-// bullet. for fun remove "_pressed"
+// bullet
 if (keyboard_check_pressed(vk_space)) 
 {
-	// WHAT IS YOUR SCRIPT TRICKERY
-	// create_bullet(image_angle, bulletSpd);
+	create_bullet(image_angle, bulletSpd);
 	
 }
 

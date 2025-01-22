@@ -26,7 +26,7 @@
     {"name":"sprAsteroidSm","order":2,"path":"sprites/sprAsteroidSm/sprAsteroidSm.yy",},
     {"name":"sprBullet","order":4,"path":"sprites/sprBullet/sprBullet.yy",},
     {"name":"sprDebris","order":5,"path":"sprites/sprDebris/sprDebris.yy",},
-    {"name":"sprPowerupsPlaceholders","order":8,"path":"sprites/sprPowerupsPlaceholders/sprPowerupsPlaceholders.yy",},
+    {"name":"sprPowerups","order":8,"path":"sprites/sprPowerups/sprPowerups.yy",},
     {"name":"sprShipPowerups","order":1,"path":"sprites/sprShipPowerups/sprShipPowerups.yy",},
     {"name":"sprShipShoot","order":2,"path":"sprites/sprShipShoot/sprShipShoot.yy",},
   ],
