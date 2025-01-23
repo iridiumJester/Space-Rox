@@ -40,8 +40,7 @@ if (speed > 0) && not (keyboard_check(vk_up))
 // bullet
 if (keyboard_check_pressed(vk_space)) 
 {
-	create_bullet(image_angle, bulletSpd);
-	
+	create_bullet(x,y);
 }
 
 move_wrap(true,true,sprite_width/2);

@@ -2,4 +2,4 @@
 
 instance_destroy();
 
-with(other) event_perform(ev_other, v_user0);
+with(other) event_perform(ev_other, ev_user0);
